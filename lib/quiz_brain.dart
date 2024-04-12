@@ -16,7 +16,6 @@ class QuizBrain {
       _questionNumber++;
     }
   }
-
   String questionDisplay() {
     return _questionBank[_questionNumber].questionText;
   }
